@@ -27,6 +27,8 @@ export function ButtonAuth({ session }: { session: string | null }) {
         <button onClick={handleSignIn}>Sign In</button>
     );
   }
+  return( <button onClick={handleSignOut} className='text-lg font-semibold hover:text-gray-300 transition duration-300'>LogOut</button>)
+  
 
 }
 

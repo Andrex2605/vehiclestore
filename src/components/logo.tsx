@@ -6,8 +6,8 @@ const Logo = () => {
             <Image
                 src='/car.svg'
                 alt="car"
-                width={200} // Ancho de la imagen
-                height={200} // Alto de la imagen
+                width={150} // Ancho de la imagen
+                height={150} // Alto de la imagen
                 priority
             />
         </div>
